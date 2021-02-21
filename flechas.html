@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dibujando con Flechas</title>
+</head>
+<style type="text/css" id="estilo">
+    body {
+        color: white;
+        background-color: #242424;
+    }
+</style>
+
+<body>
+    <h1>Dibujando con Canvas!</br>Tu Pizarra Digital</H1>
+    <p>Cambiar Color Pincel del Mouse:
+        <input type="color" id="colorPincel" />
+        <p>Cambiar Color Pincel Flechas
+            <input type="color" id="colorFlechas" />
+        </p>
+        <input type="button" value="Borrar Pizarra" id="botonBorrar" />
+    </p>
+
+    <canvas width="300" height="300" id="area_de_dibujo"></canvas>
+    <p>Mueve las Flechas del Teclado para Dibujar</p>
+    <p>Mueve el Mouse para Dibujar</p>
+    <script src="eventos.js"></script>
+</body>
+
+</html>
